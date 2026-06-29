@@ -1,0 +1,19 @@
+<head>
+  <title>Le mot de passe est év</title>
+</head>
+
+<body style="background-color: black;">
+  <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+    <img src="thesnake.png"> 
+      <script>
+        const password = prompt("Le mot de passe est \"évident\".");
+        
+        if (password === "évident") {
+            document.body.style.display = "block"; 
+        } else {
+            alert("Pas assez \"évident\" pour vous on dirait.");
+            window.close();
+        }
+    </script>
+  </div>
+</body>

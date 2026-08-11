@@ -1,0 +1,23 @@
+<head>
+  <title>Un enchantement</title>
+</head>
+
+<body style="background-color: black;">
+  <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+    <img src="thesnake.png"> 
+      <script>
+        const password = prompt("Le mot de passe est \"évident\".");
+        
+        if (password === "évident") {
+            document.body.style.display = "block"; 
+        } else {
+            alert("Pas assez \"évident\" pour vous on dirait.");
+            document.documentElement.innerHTML = "";
+            window.location.replace("https://www.youtube.com/watch?v=HV9lvOBK_rY");
+        }
+
+    </script>
+    
+        <!--Kepaski?-->
+  </div>
+</body>
